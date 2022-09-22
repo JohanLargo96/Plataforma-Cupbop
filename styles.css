@@ -1,0 +1,30 @@
+h1{
+    text-align: left;
+    margin: 24px;
+}
+
+.products{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 18px,18px;
+    margin-top: 18px;
+    margin-bottom: 42px;
+    scroll-margin-inline-start: 40PX;
+}
+
+.p-3 {
+    padding: $spacer !important;
+  }
+
+  .mb-0 {
+    margin-bottom: 24px !important;
+  }
+
+  .titulo-centrado{
+    text-align: center;
+  }
+
+  
+

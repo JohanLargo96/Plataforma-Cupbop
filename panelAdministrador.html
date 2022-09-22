@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CupBopRestaurant</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+<body>
+    <!-- As a heading -->
+    <nav class="navbar bg-light">
+        <div class="container-fluid">
+            <span class="navbar-brand mb-0 h1">RESTAURANTE CUPBOP</span>
+        </div>
+    </nav>
+
+
+    <div class="container">
+        <!-- Seccion para edicion de platos y menu -->
+        <section>
+            <h2>Administración de menu y platos</h2>
+            <div class="col-md-12">
+                <label for="inputCategoriaPlato" class="form-label">Categoria de platos</label>
+                <select id="inputCategoriaPlato" class="form-select">
+                    <option selected>Seleccione...</option>
+                    <option>...</option>
+                </select>
+            </div>
+
+            <div class="col-md-12">
+                <label for="inputNombrePlato" class="form-label">Nombre de plato</label>
+                <select id="inputNombrePlato" class="form-select">
+                    <option selected>Seleccione...</option>
+                    <option>...</option>
+                </select>
+            </div>
+
+                <button type="button" class="btn btn-primary" disabled>Consultar precio</button>
+            
+
+                <button type="button" class="btn btn-outline-primary" disabled>Actualizar precio</button>
+       
+        </section>
+        <br>
+        <!-- Seccion para edición de usuarios -->
+        <section>
+            <h2>Agregar plato</h2>
+            <div class="col-md-12">
+                <label for="inputNombrePlato" class="form-label">Nombre del plato</label>
+                <input type="text" class="form-control" id="inputNombrePlato">
+            </div>
+            <div class="col-md-12">
+                <label for="inputPrecio" class="form-label">Precio</label>
+                <input type="text" class="form-control" id="inputPrecio">
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Descripción de plato</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+              </div>
+
+              <button type="button" class="btn btn-primary" disabled>Agregar nuevo plato</button>
+        <!-- Seccion para edición de usuarios -->
+        <br><br>
+
+        <section>
+            <h2>Administración de usuarios registrados</h2>
+            <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email de usuario</label>
+                <input type="email" class="form-control" id="inputEmail4">
+            </div>
+            <div class="col-md-6">
+                <button type="button" class="btn btn-primary" disabled>Consultar usuario</button>
+            </div>
+            <br>
+            <h3>Edite la información de su cliente</h3>
+            <form class="row g-3">
+                <div class="col-md-12">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                
+              
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Dirección para facturación</label>
+                    <input type="text" class="form-control" id="inputAddress"
+                        placeholder="Digite aquí su dirección principal de facturación">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Dirección para recibo de su pedido</label>
+                    <input type="text" class="form-control" id="inputAddress2"
+                        placeholder="Digite aquí la dirección para su pedido">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputCity" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">Departamento</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Seleccione...</option>
+                        <option>...</option>
+                    </select>
+                </div>
+                <div class="col-md-4">
+                    <label for="inputNumber" class="form-label">Teléfono</label>
+                    <input type="number" class="form-control" id="inputNumber">
+                </div>
+
+        </section>
+    </div>
+
+
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"></script>
+</body>
+</html>
